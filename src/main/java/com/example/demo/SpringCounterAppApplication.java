@@ -21,6 +21,6 @@ class HelloController {
     @GetMapping("/hello")
     public String helloWorld() {
         counter++;
-        return "Hello-world-" + counter;
+        return "Hi-Hello-world-" + counter;
     }
 }
